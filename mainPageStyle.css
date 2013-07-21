@@ -1,0 +1,51 @@
+/* 
+    Document   : mainPageStyle
+    Created on : 14/04/2013, 18:49:37
+    Author     : Bentsi
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+    direction: rtl;
+}
+
+#login_container { 
+    float: right;
+    margin: 10px 0;
+    border: 1px black solid;
+}
+
+.login_element{
+    text-align: right;
+}
+
+#signup_container{
+    float: right;
+    clear: right;
+    display: inline-block;
+    border: 1px black solid;
+    text-align: center;
+}
+
+#header_container{
+    height: 100px;
+    width: auto;
+    border: 1px black solid;
+}
+
+#header_logo{
+    float: right;
+}
+
+#header_sentence{
+    text-align: center;
+}
+
+#middle_container{
+    margin: 10px auto;
+    height: auto;
+    width: 50%;
+    border: 1px black solid;
+    
+}
